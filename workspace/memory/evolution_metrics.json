@@ -1,0 +1,677 @@
+{
+  "description": "进化指标历史记录，每次自检追加一条",
+  "checks": [
+    {
+      "timestamp": "2026-03-13T07:28:00+08:00",
+      "round": "baseline",
+      "scores": {
+        "core_files": 10,
+        "evolution_loop": 10,
+        "memory_quality": 6,
+        "memory_system": 1,
+        "skills": 9
+      },
+      "overall": 72,
+      "issues_count": 1,
+      "actions_count": 1,
+      "note": "首次深度自检，建立基线"
+    },
+    {
+      "timestamp": "2026-03-13T07:29:24.615153",
+      "round": "auto_2",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 1,
+        "memory_quality": 6,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 72,
+      "issues_count": 1,
+      "actions_count": 1
+    },
+    {
+      "timestamp": "2026-03-13T07:30:03.857107",
+      "round": "auto_3",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 1,
+        "memory_quality": 6,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 72,
+      "issues_count": 1,
+      "actions_count": 1
+    },
+    {
+      "timestamp": "2026-03-13T07:32:14.135730",
+      "round": "auto_4",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 1,
+        "memory_quality": 6,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 72,
+      "issues_count": 1,
+      "actions_count": 1
+    },
+    {
+      "timestamp": "2026-03-13T07:33:51.404955",
+      "round": "auto_5",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 2,
+        "memory_quality": 6,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 74,
+      "issues_count": 1,
+      "actions_count": 1
+    },
+    {
+      "timestamp": "2026-03-13T07:35:00.376086",
+      "round": "auto_6",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 6,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 90,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T07:48:25.372977",
+      "round": "auto_7",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 6,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 90,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T07:57:41.073368",
+      "round": "auto_8",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 6,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 90,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T07:58:51.353299",
+      "round": "auto_9",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 5
+      },
+      "overall": 88,
+      "issues_count": 0,
+      "actions_count": 1
+    },
+    {
+      "timestamp": "2026-03-13T08:02:07.045707",
+      "round": "auto_10",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 96,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:05:08.451117",
+      "round": "auto_11",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9
+      },
+      "overall": 96,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:05:29.853660",
+      "round": "auto_12",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 7,
+        "velocity": 10
+      },
+      "overall": 94,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:06:29.866768",
+      "round": "auto_13",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 7,
+        "velocity": 10
+      },
+      "overall": 94,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:08:04.681182",
+      "round": "auto_14",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:10:53.175642",
+      "round": "auto_15",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:11:29.025878",
+      "round": "auto_16",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:14:00.328477",
+      "round": "auto_17",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:14:31.067263",
+      "round": "auto_18",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T08:16:14.326503",
+      "round": "auto_19",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T11:49:05.251425",
+      "round": "auto_20",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T13:11:30.710560",
+      "round": "auto_21",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T13:19:27.935855",
+      "round": "auto_22",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T14:00:21.458573",
+      "round": "auto_23",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T17:21:29.883748",
+      "round": "auto_24",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T17:33:05.985384",
+      "round": "auto_25",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T17:37:47.340746",
+      "round": "auto_26",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T18:19:15.818757",
+      "round": "auto_27",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T18:53:50.586043",
+      "round": "auto_28",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T19:22:33.956259",
+      "round": "auto_29",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T20:01:36.539442",
+      "round": "auto_30",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-13T21:53:32.041484",
+      "round": "auto_31",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-14T08:00:18.962964",
+      "round": "auto_32",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-14T09:12:06.867920",
+      "round": "auto_33",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-14T13:24:07.478988",
+      "round": "auto_34",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-14T14:00:19.250678",
+      "round": "auto_35",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-14T20:00:22.944358",
+      "round": "auto_36",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-14T20:04:15.990239",
+      "round": "auto_37",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-14T22:35:29.299758",
+      "round": "auto_38",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-15T08:00:28.333974",
+      "round": "auto_39",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 6,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 92,
+      "issues_count": 1,
+      "actions_count": 1
+    },
+    {
+      "timestamp": "2026-03-15T09:03:06.621661",
+      "round": "auto_40",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    },
+    {
+      "timestamp": "2026-03-15T14:00:32.538743",
+      "round": "auto_41",
+      "scores": {
+        "core_files": 10,
+        "memory_system": 10,
+        "memory_quality": 9,
+        "evolution_loop": 10,
+        "skills": 9,
+        "config": 10,
+        "automation": 10,
+        "velocity": 10
+      },
+      "overall": 98,
+      "issues_count": 0,
+      "actions_count": 0
+    }
+  ],
+  "trends": {
+    "best_score": 98,
+    "worst_score": 72,
+    "latest_score": 98,
+    "check_count": 41,
+    "trend": "→ stable"
+  }
+}

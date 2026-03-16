@@ -1,40 +1,55 @@
-# TOOLS.md - Local Notes
+# TOOLS.md - 环境笔记
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## 运行环境
 
-## What Goes Here
+- **主机**: Miaoda Cloud Computer（妙搭云电脑）
+- **OS**: Linux 5.15.120 (x64)
+- **Node**: v22.21.0
+- **Python**: python3
+- **浏览器**: Chromium headless (`/usr/bin/chromium-browser`)
+- **不支持 systemd** — gateway 用 `sh scripts/restart.sh`
 
-Things like:
+## 工作区路径
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+- **Workspace**: `/home/gem/workspace/agent/workspace`
+- **Memory 日志**: `/home/gem/workspace/agent/workspace/memory/`
+- **扩展插件**: `/home/gem/workspace/agent/extensions/`
+- **飞书技能**: `/home/gem/workspace/agent/extensions/feishu-openclaw-plugin/skills/`
 
-## Examples
+## 常用命令
 
-```markdown
-### Cameras
+```bash
+# 自我检查
+python3 /home/gem/workspace/agent/workspace/skills/self-improving-agent/scripts/self_check.py
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+# 经验提取
+python3 /home/gem/workspace/agent/workspace/skills/self-improving-agent/scripts/extract_lessons.py
 
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
+# Gateway 管理（无 systemd）
+sh /home/gem/workspace/agent/scripts/restart.sh
+sh /home/gem/workspace/agent/scripts/start.sh
+sh /home/gem/workspace/agent/scripts/stop.sh
 ```
 
-## Why Separate?
+## 模型配置
 
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+| 模型 | 用途 | 特点 |
+|------|------|------|
+| openrouter/hunter-alpha | 主模型 | 推理能力强，100万上下文 |
+| miaoda-auto-multimodal | 图片分析 | 多模态 |
+| miaoda-model-auto | 备用 | 免费 |
+
+## 飞书应用
+
+- **App ID**: cli_a9389f371a7a9bc2
+- **域**: feishu
+- **DM 白名单**: ou_6578be82850c77fb62a767b5441a065f
+
+## 技能位置
+
+- 工作区技能: `workspace/skills/`（1个: self-improving-agent）
+- 飞书技能: `extensions/feishu-openclaw-plugin/skills/`（9个）
+- 内置技能: `/usr/lib/node_modules/openclaw/skills/`（43个）
 
 ---
-
-Add whatever helps you do your job. This is your cheat sheet.
+*最后更新: 2026-03-13 07:57*

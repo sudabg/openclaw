@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "current": {
+    "type": "PersonalityState",
+    "rigor": 0.7,
+    "creativity": 0.35,
+    "verbosity": 0.25,
+    "risk_tolerance": 0.4,
+    "obedience": 0.9
+  },
+  "stats": {
+    "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9": {
+      "success": 7,
+      "fail": 1,
+      "avg_score": 0.7687499999999999,
+      "n": 8,
+      "updated_at": "2026-03-13T11:14:18.857Z"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-03-13T04:58:40.271Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "failed",
+      "score": 0.2,
+      "notes": "event:evt_1773377920174"
+    },
+    {
+      "at": "2026-03-13T04:59:18.504Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "success",
+      "score": 0.85,
+      "notes": "event:evt_1773377958479"
+    },
+    {
+      "at": "2026-03-13T05:14:50.580Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "success",
+      "score": 0.85,
+      "notes": "event:evt_1773378890544"
+    },
+    {
+      "at": "2026-03-13T05:14:58.820Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "success",
+      "score": 0.85,
+      "notes": "event:evt_1773378898785"
+    },
+    {
+      "at": "2026-03-13T05:16:27.439Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "success",
+      "score": 0.85,
+      "notes": "event:evt_1773378987401"
+    },
+    {
+      "at": "2026-03-13T05:18:20.984Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "success",
+      "score": 0.85,
+      "notes": "event:evt_1773379100948"
+    },
+    {
+      "at": "2026-03-13T10:21:53.263Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "success",
+      "score": 0.85,
+      "notes": "event:evt_1773397313236"
+    },
+    {
+      "at": "2026-03-13T11:14:18.857Z",
+      "key": "rigor=0.7|creativity=0.3|verbosity=0.3|risk_tolerance=0.4|obedience=0.9",
+      "outcome": "success",
+      "score": 0.85,
+      "notes": "event:evt_1773400458824"
+    }
+  ],
+  "updated_at": "2026-03-16T12:24:45.901Z"
+}
